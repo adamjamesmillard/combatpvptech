@@ -1,0 +1,726 @@
+groups:
+  default:
+    default: true
+    prefix: '&f(&eGuest&f) '
+    permissions:
+    - -essentials.kits.*
+    - essentials.suicide
+    - buttonwarp.use
+    - multiverse.portal.access.*
+    - essentials.sethome.multiple.default
+    - essentials.delhome
+    - essentials.home
+    - essentials.warp
+    - sg.arena.join.1
+    - modifyworld.*
+    - essentials.help
+    - essentials.list
+    - essentials.rules
+    - essentials.spawn
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.balance
+    - essentials.msg
+    - xteam.player.core.accept
+    - xteam.player.core.create
+    - xteam.player.core.hq
+    - xteam.player.core.join
+    - xteam.player.core.leave
+    - xteam.player.core.list
+    - xteam.leader.core.setleader
+    - xteam.admin.core.invite
+    - xteam.admin.core.promote
+    - xteam.admin.core.sethq
+    - xteam.leader.core.demote
+    - xteam.leader.core.disband
+    - xteam.leader.core.remove
+    - xteam.leader.core.rename
+    - xteam.leader.core.tag
+    worlds:
+      KitPvP:
+        permissions:
+        - essentials.sign.use.*
+        - sg.player.vote
+        - essentials.sign.use.free
+        - kingkits.kits.Archer
+        - kingkits.kit.Archer
+        - kingkits.kit.PvP
+        - kingkits.kits.PvP
+        - kingkits.kits.WHG
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kingkits.kit.sign.use
+        - kingkits.kits.HG
+        - kingkits.kits.SHG
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kit
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - essentials.home
+        - essentials.sethome
+        - essentials.warp
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - null
+    options:
+      rank: '1000'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Member:
+    default: false
+    prefix: '&f(&7Member&f) &7'
+    permissions:
+    - essentials.warp.list
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.sethome.*
+    - essentials.home
+    - essentials.clearinventory
+    - bukitt.clear
+    - essentials.balance.others
+    - essentials.sethome.multiple.member
+    - essentials.balancetop
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+        - - null
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+        - -kkitslite.kits.pvp
+        - -kkitslite.kits.archer
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - default
+    options:
+      rank: '900'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  YouTube:
+    default: false
+    prefix: '&f(&4&lYou&f&lTube&f) &7'
+    inheritance:
+    - Member
+    options:
+      rank: '850'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  VIP:
+    default: false
+    prefix: '&f(&2VIP&f) &2'
+    permissions:
+    - essentials.back
+    - essentials.afk
+    - essentials.sethome.multiple.10
+    - essentials.delhome
+    - lockette.user.create.*
+    - bukkit.command.me
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kingkits.kits.Troll
+        - kingkits.kits.Princess
+        - kingkits.kits.
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - essentials.home
+        - essentials.sethome
+        - essentials.warp
+        - -kkitslite.kits.pvp
+        - -kkitslite.kits.archer
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - Member
+    options:
+      rank: '800'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Pro:
+    default: false
+    prefix: '&f(&6Pro&f) &6'
+    permissions:
+    - head.spawn
+    - kingkits.kits.*
+    - essentials.fly
+    - essentials.broadcast
+    - essentials.sethome.multiple.5
+    - essentials.nick
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - essentials.home
+        - essentials.sethome
+        - essentials.warp
+        - -kkitslite.kits.pvp
+        - -kkitslite.kits.archer
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - VIP
+    options:
+      rank: '600'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Helper:
+    default: false
+    prefix: '&f(&6Helper&f) &6'
+    permissions:
+    - essentials.tp
+    - essentials.nickname.color
+    - essentials.vanish
+    - essentials.fly
+    - essentials.kick
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - kingkits.kit.*
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+        - -kkitslite.kits.pvp
+        - -kkitslite.kits.archer
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - Pro
+    options:
+      rank: '400'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Moderator:
+    default: false
+    prefix: '&f(&5Mod&f)&5'
+    permissions:
+    - kingkits.kits.*
+    - essentials.signs.use.*
+    - worldguard.modify.*
+    - essentials.mute
+    - kingkits.kit.sign.use.*
+    - kingkits.kit.use.*
+    - kingkits.sign.use.*
+    - kingkits.sign.use
+    - essentials.sign.use.*
+    - essentials.feed
+    - essentials.kick
+    - essentials.fly
+    - essentials.ban.offline
+    - essentials.tempban
+    - essentials.unban
+    - essentials.vanish
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.chat.url
+    - essentials.signs.color
+    - essentials.nick
+    - essentials.nick.color
+    - coreprotect.inspect
+    - lockette.admin.create.*
+    - lockette.admin.bypass
+    - essentials.sethomes.multiple.8
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+        - -kkitslite.kits.pvp
+        - -kkitslite.kits.archer
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    inheritance:
+    - Helper
+    options:
+      rank: '200'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Moderator+:
+    default: false
+    prefix: '&f(&5Mod+&f)&5'
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - essentials.broadcast
+        - essentials.gamemode
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+      S:
+        permissions:
+        - essentials.gamemode
+        - essentials.gm
+    options:
+      rank: '175'
+      rank-ladder: main
+      build: true
+      suffix: ''
+    inheritance:
+    - Moderator
+  Builder:
+    inheritance:
+    - Moderator+
+    prefix: (&6Builder&f) &9
+    options:
+      rank: '170'
+      rank-ladder: main
+    permissions:
+    - worldedit.*
+    - essentials.gamemode
+  Tech-Mod:
+    default: false
+    prefix: '&f(&l&3Tech&f-&5Mod&f) &5'
+    permissions:
+    - essentials.gamemode
+    - essentials.god
+    - vanish.vanish
+    - essentials.kick
+    - essentials.fly.speed
+    - essentials.tempban.offline
+    - essentials.sethome.10
+    - essentials.ban
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+      S:
+        permissions:
+        - essentials.gamemode
+        - essentials.gm
+    options:
+      rank: '150'
+      rank-ladder: main
+      build: true
+      suffix: ''
+    inheritance:
+    - Moderator+
+  Admin:
+    default: false
+    prefix: '&f(&l&4Admin&f) &4'
+    permissions:
+    - essentials.gamemode
+    - essentials.gm
+    - xteam.serveradmin.core.chatspy
+    - vanish.silentjoin
+    - vanish.vanish
+    - vanish.toggle.silentchests
+    - vanish.silentquit
+    - vanish.
+    - essentials.ban
+    - essentials.fly.speed
+    - essentials.tempban.offline
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    options:
+      rank: '100'
+      rank-ladder: main
+      build: true
+      suffix: ''
+    inheritance:
+    - Tech-Mod
+  HeadAdmin:
+    default: false
+    prefix: '&f(&4&lH-Admin&f) &4'
+    permissions:
+    - nocheatplus.checks.moving.creativefly
+    - bukkit.command.whitelist.remove
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.ban.list
+    - bukkit.command.me
+    worlds:
+      KitPvP:
+        permissions:
+        - -essentials.sethome.multiple.default
+        - -essentials.kits.starter
+        - -essentials.kits.Combo
+        - -essentials.delhome
+        - essentials.kit
+        - -essentials.tpa
+        - -essentials.tpaccept
+        - -essentials.home
+        - -essentials.sethome
+        - essentials.warp
+        - kkitslite.kits.pvp
+        - kkitslite.kits.archer
+      world:
+        permissions:
+        - essentials.sethome.multiple.default
+        - essentials.kits.starter
+        - essentials.kits.Combo
+        - essentials.delhome
+        - essentials.kit
+        - essentials.tpa
+        - essentials.tpaccept
+        - -essentials.home
+        - essentials.sethome
+        - essentials.warp
+      world_nether:
+        inheritance:
+        - world
+      world_end:
+        inheritance:
+        - world
+    options:
+      rank: '50'
+      rank-ladder: main
+      build: true
+      suffix: ''
+    inheritance:
+    - Admin
+  VintageMaster:
+    inheritance:
+    - HeadAdmin
+    prefix: '&f(&6Vintage&4Master&f)'
+    options:
+      parents: HeadAdmin
+  TechAdmin:
+    default: false
+    prefix: '&f(&3&lTech&f-&4&lAdmin&f) &4'
+    permissions:
+    - '*'
+	- -permissions.*
+    - permissions.user.promote
+    - permissions.user.demote	
+    inheritance:
+    - HeadAdmin
+    options:
+      rank: '25'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Tech-Leader:
+    default: false
+    prefix: '&f(&1&3Tech Lord&f)'
+    permissions:
+    - '*'
+	- permissions.*
+    inheritance:
+    - TechAdmin
+    options:
+      rank: '5'
+      rank-ladder: main
+      build: true
+      suffix: ''
+  Owner:
+    default: false
+    prefix: '&f(&4&lOwner&f) &4'
+    permissions:
+    - '*'
+    inheritance:
+    - Tech-Leader
+    options:
+      rank: '1'
+      rank-ladder: main
+      build: true
+      suffix: ''  
+users:
+  thomashomsy:
+    group:
+    - Owner
+  Griffin40:
+    group:
+    - tech-leader
+  Alvino_2012:
+    group:
+    - Owner
+  welshwonder1:
+    group:
+    - Member
+  Rawritsjp:
+    group:
+    - Admin
+  AzurePvP:
+    group:
+  ViirusHD:
+    group:
+    - Helper
+  plmnhy900:
+    group:
+    - Helper
+  Sciencentistguy:
+    group:
+    - TechAdmin
+  zakchamakh:
+    group:
+    - Moderator+
+  lminer1000:
+    group:
+    - Moderator
+  pick_an_axe:
+    group:
+    - Member
+  man_machine1:
+    group:
+    - Member
+  Schlumpf30:
+    group:
+    - Moderator
+  SlothPvP:
+    group:
+    - Owner
+  kingfaris10:
+    group:
+    - Tech-Mod
+    worlds:
+      KitPvP:
+        permissions:
+        - kingkits.kits.*
+    permissions:
+    - kingkits.command.config
+  Ch0zoYo:
+    group:
+    - Admin
+  thesamster8:
+    group:
+    - Helper
+  bloonder01:
+    group:
+    - VintageMaster
+  spindos01:
+    group:
+    - Vintgemaster
+  ronaldstone:
+    group:
+    - Member
+  Ronandstone:
+    group:
+    - Member
+  Arnoldh:
+    group:
+  wiigomax:
+    group:
+  alexjrich:
+    group:
+    - Helper
+  COHEN40:
+    group:
+    - Member
