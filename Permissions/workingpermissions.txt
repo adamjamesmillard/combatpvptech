@@ -610,6 +610,8 @@ groups:
     - -permissions.*
     - permissions.user.promote
     - permissions.user.demote
+    - -bbukkit.command.op.give
+    - -bbukkit.command.op.take
     inheritance:
     - HeadAdmin
     options:
