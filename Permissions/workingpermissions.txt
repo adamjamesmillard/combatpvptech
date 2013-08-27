@@ -609,7 +609,7 @@ groups:
     - '*'
     - -permissions.*
     - permissions.user.promote
-    - permissions.user.demote	
+    - permissions.user.demote
     inheritance:
     - HeadAdmin
     options:
