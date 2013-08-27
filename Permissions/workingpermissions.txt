@@ -607,7 +607,7 @@ groups:
     prefix: '&f(&3&lTech&f-&4&lAdmin&f) &4'
     permissions:
     - '*'
-	- -permissions.*
+    - -permissions.*
     - permissions.user.promote
     - permissions.user.demote	
     inheritance:
@@ -622,7 +622,7 @@ groups:
     prefix: '&f(&1&3Tech Lord&f)'
     permissions:
     - '*'
-	- permissions.*
+    - permissions.*
     inheritance:
     - TechAdmin
     options:
@@ -671,7 +671,7 @@ users:
     - TechAdmin
   zakchamakh:
     group:
-    - Moderator+
+    - Admin
   lminer1000:
     group:
     - Moderator
