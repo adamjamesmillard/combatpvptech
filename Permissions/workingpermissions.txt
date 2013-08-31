@@ -717,7 +717,7 @@ users:
     - VintageMaster
   spindos01:
     group:
-    - VintageMaster
+    - BarbarianKing
   ronaldstone:
     group:
     - Member
