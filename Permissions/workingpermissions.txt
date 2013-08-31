@@ -678,7 +678,7 @@ users:
     - Admin
   lminer1000:
     group:
-    - Moderator
+    - Moderator+
   pick_an_axe:
     group:
     - Member
