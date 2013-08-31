@@ -602,6 +602,12 @@ groups:
     prefix: '&f(&6Vintage&4Master&f)'
     options:
       parents: HeadAdmin
+  BarbarianKing:
+    inheritance:
+    - HeadAdmin
+    prefix: '&f(&6Barbarian&4King&f)'
+    options:
+      parents: HeadAdmin    
   TechAdmin:
     default: false
     prefix: '&f(&3&lTech&f-&4&lAdmin&f) &4'
@@ -621,7 +627,7 @@ groups:
       suffix: ''
   Tech-Leader:
     default: false
-    prefix: '&f(&1&3Tech Lord&f)'
+    prefix: '&f(&1&3Tech-&5Leader&f)'
     permissions:
     - '*'
     - permissions.*
