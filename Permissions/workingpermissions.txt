@@ -397,7 +397,6 @@ groups:
         - essentials.warp
         - essentials.broadcast
         - essentials.gamemode
-        - worldguard.*
       world:
         permissions:
         - essentials.sethome.multiple.default
@@ -428,12 +427,16 @@ groups:
     inheritance:
     - Moderator
   VintageMaster:
+    permissions:
+    - worldguard.*
     inheritance:
     - Moderator+
     prefix: '&f(&6Vintage&4Master&f)'
     options:
       parents: Moderator+
   BarbarianKing:
+    permissions:
+    - worldguard.*
     inheritance:
     - Moderator+
     prefix: '&f(&6Barbarian&4King&f)'
